@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #f3f2ef;
+  font-family: helvetica;
+}
+.nav_bar{
+width: 100%;
+height: 50px;
+background-color: white;
+display: flex;
+justify-content: space-between;    
+position: fixed;
+z-index: 100;
+top: 0;
+}
+.left_side{		
+display: flex;
+align-items: center;
+}
+.linkimg{
+ object-fit: contain;
+ height: 40px;   
+ margin-left: 10px;
+}
+.search_box {
+margin-left: 10px;  
+}
+.search{
+position: absolute;
+flex-direction: row;
+margin-top: 7px;
+z-index: 1;  
+}
+input{
+font-size: 12px;
+text-align: center;
+height: 30px;
+position: relative;
+background-color: #eef3f8;
+border-radius: 5px;
+border-color: #eef3f8;
+border-style: hidden;
+}
+.right_side {
+display: flex;
+z-index: 1;
+flex-direction: row;
+align-items: center;
+margin-right: 10px;
+}
+
+.postimg {
+width: 60px;
+height: 60px; 
+position: absolute;
+margin-left: 10px;
+margin-top: 70px;  
+}
+main {
+
+}
+.banner_photo { 
+width: 684px;
+height: 200px;
+border-radius: 5px 5px 0px 0px;
+}
+
+.profile_pic {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+  margin-top: 90px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.intro {
+position: absolute;
+margin-top: 30%;
+margin-left: 10px;  
+}
+span {
+color: blue;
+font-weight: bold;}
+
+h1 {
+font-size: 18px;
+}
+
+.followers {
+color: blue;
+margin-top: 5px;
+}
+.title {
+font-weight: lighter;
+}
+
+.location {
+font-weight: lighter;
+margin-top: 5px;
+color: grey;
+}
+
+
+.banner {
+width: 684px;
+display: flex;
+margin-left: 20%;
+border:0.5px solid #ccc;
+box-shadow: 1px 1px 5px #ccc;
+height: 396px;
+position: relative;
+margin-top: 10px;
+z-index: 1;
+border-radius: 5px;
+background-color: white;  
+}
+.activity {
+width: 684px;
+display: flex;
+z-index: 1;
+position: relative;
+border-radius: 5px;
+background-color: white; 
+margin-left: 20%;
+margin-top: 10px;
+border:0.5px solid #ccc;
+box-shadow: 1px 1px 5px #ccc;
+height: 150px;
+}
+
+.pencil {
+margin-left: 85%;
+margin-top: 5px;
+cursor: pointer;
+}
+.header {
+ margin-left: 10px;
+margin-top: 5px;  
+}
+
+.about {   
+width: 684px;
+display: flex;
+z-index: 1;
+position: relative;
+border-radius: 5px;
+background-color: white; 
+margin-left: 20%;
+margin-top: 10px;
+border:0.5px solid #ccc;
+box-shadow: 1px 1px 5px #ccc;
+height: 100px;
+}
+
+.experience {
+width: 684px;
+display: flex;
+z-index: 1;
+position: relative;
+border-radius: 5px;
+background-color: white; 
+margin-left: 20%;
+margin-top: 10px;
+border:0.5px solid #ccc;
+box-shadow: 1px 1px 5px #ccc;
+height: 130px;  
+}
+
+.student{
+position: absolute;
+font-size: 13px;
+margin-top: 30px;
+margin-left: 10px;  
+}
+
+.fcc-header {
+position: absolute;
+font-size: 12px;
+margin-top: 45px;
+margin-left: 10px; 
+font-weight: lighter;
+}
+
+.fcc_duration {
+position: absolute;
+font-size: 12px;
+margin-top: 60px;
+margin-left: 10px; 
+font-weight: lighter;
+color: grey;
+}
+.fcc_par {
+position: absolute;
+font-size: 11px;
+margin-top: 80px;
+margin-left: 10px; 
+font-weight: lighter;
+}
+
+.pencil_two {
+margin-left: 77%;
+margin-top: 5px;
+cursor: pointer;
+}
+
+.plus {
+margin-top: 5px;
+
+}
+
+.education {
+ width: 684px;
+display: flex;
+z-index: 1;
+position: relative;
+border-radius: 5px;
+background-color: white; 
+margin-left: 20%;
+margin-top: 10px;
+border:0.5px solid #ccc;
+box-shadow: 1px 1px 5px #ccc;
+height: 150px;
+}
+
+.licenses {
+width: 684px;
+display: flex;
+z-index: 1;
+position: relative;
+border-radius: 5px;
+background-color: white; 
+margin-left: 20%;
+margin-top: 10px;
+border:0.5px solid #ccc;
+box-shadow: 1px 1px 5px #ccc;
+height: 150px;
+}
+.button_start {
+height: 20px;
+width: 90px;
+border-radius: 10px;
+margin-top: 10px;
+margin-left: 70%;
+cursor: pointer;
+}
+.followers-two {
+color: blue;
+margin-top: 30px;
+position: absolute;
+margin-left: 10px;  
+}
+.repost {
+position: absolute;
+margin-top: 50px;
+margin-left: 10px;
+
+}
+.about_par {
+font-size: 12px;
+position: absolute;
+margin-left: 10px;
+margin-top: 40px;  
+}
+
+.fcc_school {
+  position: absolute;
+font-size: 13px;
+margin-top: 30px;
+margin-left: 10px;
+}
+
+.plus {
+cursor: pointer;
+}
+.button_start:hover {
+background-color: lightblue;
+} 
+.material-symbols-outlined {  
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: #5A5A5A;
+}
+/*add media query*/
